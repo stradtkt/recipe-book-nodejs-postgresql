@@ -1,12 +1,21 @@
 {
   "name": "recipe-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A recipe app that displays directions on how to cook certain recipes",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Kevin Stradtman",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "*",
+    "consolidate": "*",
+    "dust": "*",
+    "dustjs-helpers": "*",
+    "dustjs-linkedin": "*",
+    "express": "*",
+    "pg": "*"
+  }
 }
